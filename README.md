@@ -1,9 +1,11 @@
 Pykafka_Random_JSON_Producer
-#Purpose
+
+# Purpose
 To Produce random JSON messages to a Kafka Topic.
 
-#Prerequisites
+# Prerequisites
 pykafka should be installed.
+
 To install pykafka:
   if you are using default python:
       pip install pykafka
@@ -17,9 +19,7 @@ Requirement already satisfied: six>=1.5 in /usr/local/anaconda2/lib/python2.7/si
 Requirement already satisfied: tabulate in /usr/local/anaconda2/lib/python2.7/site-packages (from pykafka)
 Installing collected packages: pykafka
 Successfully installed pykafka-2.7.0
-You are using pip version 9.0.3, however version 10.0.1 is available.
-You should consider upgrading via the 'pip install --upgrade pip' command.
-[root@apache-spark ~]#
+
 [root@apache-spark ~]# python
 Python 2.7.14 |Anaconda custom (64-bit)| (default, Mar 12 2018, 12:37:12)
 [GCC 7.2.0] on linux2
@@ -27,7 +27,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> import pykafka
 >>> exit()
 
-#Usage
+# Usage
 [root@apache-spark ~]$ python random_json_pykafka_producer.py -h
 
 usage: random_json_pykafka_producer.py [-h] [-s SERVER] [-p PORT] [-t TOPIC]
@@ -40,7 +40,7 @@ optional arguments:
   -t TOPIC, --topic TOPIC
                         Topic Name
 
-#Example
+# Example
 [root@apache-spark ~]$ python random_json_kafka_producer.py -s apache-kafka.abc.com -p 9092 -t test
 
 Producing JSON messages to:
