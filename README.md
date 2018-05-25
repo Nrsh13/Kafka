@@ -50,7 +50,7 @@ optional arguments:
 
 ## Example
 ```
-[root@apache-spark ~]$ python random_json_kafka_producer.py -s apache-kafka.abc.com -p 9092 -t test
+[root@apache-spark ~]$ python random_json_pykafka_producer.py -s apache-kafka.abc.com -p 9092 -t test
 
 Producing JSON messages to:
     Kafka Broker: apache-kafka.abc.com:9092
