@@ -5,12 +5,16 @@ To Produce random JSON messages to a Kafka Topic.
 
 ## Prerequisites
 pykafka should be installed.
-
 To install pykafka:
-    if you are using default python:
-        pip install pykafka
-    if you have multiple python (say Anaconda):
-        sudo $ANACONDA_HOME/bin/python -m pip install pykafka
+
+if you are using default python:
+```
+pip install pykafka
+```
+if you have multiple python (say Anaconda):
+```
+sudo $ANACONDA_HOME/bin/python -m pip install pykafka
+```
 
 ```
 [root@apache-spark ~]# pip install pykafka
