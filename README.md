@@ -8,9 +8,9 @@ pykafka should be installed.
 
 To install pykafka:
   if you are using default python:
-      pip install pykafka
+    pip install pykafka
   if you have multiple python (say Anaconda):
-      sudo $ANACONDA_HOME/bin/python -m pip install pykafka
+    sudo $ANACONDA_HOME/bin/python -m pip install pykafka
 
 ```
 [root@apache-spark ~]# pip install pykafka
