@@ -36,7 +36,7 @@ sudo $ANACONDA_HOME/bin/python -m pip install pykafka
 ```
 [root@apache-spark ~]$ python pykafka_json_consumer.py help
 
-        ALERT: This Script assumes All Services are running on same Machine pxlbig14.nz.thenational.com !!
+        ALERT: This Script assumes All Services are running on same Machine apache-spark.hadoop.com !!
         if NOT, Update the required Details in Main() section of the Script.
 
         Usage: python pykafka_json_consumer.py
