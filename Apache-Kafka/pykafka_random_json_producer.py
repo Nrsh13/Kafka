@@ -35,7 +35,7 @@ def produce_messages(topic,num_mesg):
         emails = ["@gmail.com","@@yahoo.com","@hotmail.com","@aol.com","@hotmail.co.uk","@rediffmail.com","@ymail.com","@outlook.com","@@gmail.com","hotmail.com","@hotmail.com","@bnz.co.nz","@nbc.com","@yahoo.com","#gmail.com","@hcl.com","@#tcs.com","@tcs.com","##hcl.com"]
 
 
-        print "\nINFO: Producing %s Messages sys.maxint\n" %num_mesg
+        print "\nINFO: Producing Messages\n"
 
         # Call get_sync_producer() function for topic
         with topic.get_sync_producer() as producer:
@@ -83,7 +83,7 @@ if __name__ == '__main__':
                 usage()
 
         if len(sys.argv) != 2:
-                num_mesg = 10
+                num_mesg = sys.maxint
         else:
                 num_mesg = sys.argv[1]
 
