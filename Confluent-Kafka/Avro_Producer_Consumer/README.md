@@ -18,15 +18,15 @@ sudo $ANACONDA_HOME/bin/python -m pip install confluent-kafka[avro]
 ```
 
 ## Description
-Prodcuer confluent_avro_json_producer.py will:
+Prodcuer confluent_kakfa_random_avro_producer.py will:
 - Check if the Schema exists for Key/Value in Schema Registry.
 - If Yes, Fetch the Schema from SR and attache with AvroProducer instance.
 - If No, Create the required Schema in SR, Fetch it again and attach with AvroProducer Instance.
 - Start Producing Messages per second in Format:
 
-       - {'lname': 'Hernandez', 'passport_expiry_date': '2022-11-29', 'passport_make_date': '2012-11-29', 'fname': 'Nicholas', 'mobile': 99821548511, 'ipaddress': '34.154.58.68', 'email': 'Nicholas_Hernandez@hotmail.com', 'principal': 'Nicholas@EXAMPLE.COM'}
+       {'lname': 'Hernandez', 'passport_expiry_date': '2022-11-29', 'passport_make_date': '2012-11-29', 'fname': 'Nicholas', 'mobile': 99821548511, 'ipaddress': '34.154.58.68', 'email': 'Nicholas_Hernandez@hotmail.com', 'principal': 'Nicholas@EXAMPLE.COM'}
 
-Consumer confluent_avro_json_consumer.py will:
+Consumer confluent_kakfa_avro_consumer.py will:
 - Consume all messages continuously.
 
 ## Usage
