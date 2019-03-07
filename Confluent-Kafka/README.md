@@ -4,7 +4,7 @@
 To Produce and Consume random JSON messages to a Kafka Topic 'mytopic'.
 
 ## Prerequisites
-To install confluent-kafka:
+Confluent-kafka should be installed. To install confluent-kafka:
 
 if you are using default python:
 ```
